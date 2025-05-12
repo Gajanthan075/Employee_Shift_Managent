@@ -51,7 +51,7 @@ The **Employee Shift Tracker** is a full-stack web application that enables empl
 ---
 ## 🚀 Deployment
 
-You can access the live project here: [Live Demo](https://profound-daifuku-b10d06.netlify.app/)
+You can access the live project here(Frontend only): [Live Demo](https://profound-daifuku-b10d06.netlify.app/)
 
 
 ## 🔧 Setup & Installation
