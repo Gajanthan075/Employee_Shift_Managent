@@ -15,7 +15,7 @@ The **Employee Shift Tracker** is a full-stack web application that enables empl
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT-based
-- **Hosting**: Frontend (Netlify), Backend (local Device)
+- **Hosting**: Frontend (Netlify), Backend(Not hosted)
 
 ---
 
@@ -49,6 +49,10 @@ The **Employee Shift Tracker** is a full-stack web application that enables empl
 - Responsive design for mobile and desktop.
 
 ---
+## 🚀 Deployment
+
+You can access the live project here: [Live Demo](https://profound-daifuku-b10d06.netlify.app/)
+
 
 ## 🔧 Setup & Installation
 
