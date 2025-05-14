@@ -12,7 +12,10 @@ const app = express();
 const port = process.env.PORT || 4000;
 connectDB();
 
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://profound-daifuku-b10d06.netlify.app",
+];
 
 app.use(express.json());
 app.use(cookieParser());
@@ -25,4 +28,4 @@ app.use("/api/user", userRouter);
 app.use("/api/shifts", shiftRouter);
 app.use("/api/location", locationRouter);
 
-app.listen(port, () => console.log(`server started on PORT: ${port}`));
+export default app;
