@@ -93,14 +93,17 @@ After installing dependencies, the application can be run locally:
 3. Open your browser and navigate to `http://localhost:3000` to view the app.
 
 
-## Project Structure
-employee-shift-tracker/
+
+## 📁 Folder Structure
+
+```bash
+employee-shift-Management/
 ├── client/                         # Frontend (React + Vite + Tailwind)
 │   ├── public/                     # Public assets
 │   └── src/                        # Main source code
 │       ├── assets/                 # Images, icons, and other static assets
 │       ├── components/             # Reusable UI components
-│       │   ├── dashboardComponents/ 
+│       │   ├── dashboardComponents/
 │       │   │   ├── loader/         # Loader spinner component
 │       │   │   │   ├── Loader.jsx
 │       │   │   │   └── Loader.css
@@ -164,5 +167,8 @@ server/                             # Backend (Node.js + Express + MongoDB)
 ├── server.js                       # Entry point of the server
 ├── package.json                    # Backend dependencies
 └── README.md
+```
+
+
 
 
