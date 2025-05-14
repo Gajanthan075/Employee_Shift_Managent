@@ -9,7 +9,7 @@ import shiftRouter from "./routes/shiftRoutes.js";
 import locationRouter from "./routes/locationRoutes.js";
 
 const app = express();
-const port = process.env.PORT || 4000;
+//const port = process.env.PORT || 4000;
 connectDB();
 
 const allowedOrigins = [
@@ -28,4 +28,8 @@ app.use("/api/user", userRouter);
 app.use("/api/shifts", shiftRouter);
 app.use("/api/location", locationRouter);
 
+<<<<<<< HEAD
+=======
+//app.listen(port, () => console.log(`server started on PORT: ${port}`));
+>>>>>>> f0b6eb424656ed134c7e264cec6d4ac9e26a1c2c
 export default app;
