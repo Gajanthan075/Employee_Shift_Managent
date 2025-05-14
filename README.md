@@ -98,7 +98,7 @@ After installing dependencies, the application can be run locally:
 
 Check out the live demo of the project hosted on Netlify:
 
-🔗 [View Live Demo](https://profound-daifuku-b10d06.netlify.app/)
+🔗 [View Live Demo only can for front end](https://profound-daifuku-b10d06.netlify.app/)
 
 
 ## 📁 Folder Structure
