@@ -93,6 +93,13 @@ After installing dependencies, the application can be run locally:
 3. Open your browser and navigate to `http://localhost:3000` to view the app.
 
 
+   
+## 🚀 Live Demo
+
+Check out the live demo of the project hosted on Netlify:
+
+🔗 [View Live Demo](https://profound-daifuku-b10d06.netlify.app/)
+
 
 ## 📁 Folder Structure
 
