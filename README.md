@@ -64,7 +64,7 @@ The **Employee Shift Management Web Application** allows employees to log in, tr
       ```
     - Start the React development server:
       ```bash
-      npm start
+      npm run dev
       ```
 
 2. **Backend**:
@@ -94,4 +94,75 @@ After installing dependencies, the application can be run locally:
 
 
 ## Project Structure
+employee-shift-tracker/
+├── client/                         # Frontend (React + Vite + Tailwind)
+│   ├── public/                     # Public assets
+│   └── src/                        # Main source code
+│       ├── assets/                 # Images, icons, and other static assets
+│       ├── components/             # Reusable UI components
+│       │   ├── dashboardComponents/ 
+│       │   │   ├── loader/         # Loader spinner component
+│       │   │   │   ├── Loader.jsx
+│       │   │   │   └── Loader.css
+│       │   │   ├── DashboardReader.jsx
+│       │   │   ├── HourToday.jsx
+│       │   │   ├── LocationLog.jsx
+│       │   │   ├── MapDisplay.jsx
+│       │   │   ├── MapSection.jsx
+│       │   │   ├── MonthlyReport.jsx
+│       │   │   ├── ShiftStatus.jsx
+│       │   │   └── location/
+│       │   │       └── CheckLocationButtons.jsx
+│       │   └── Panel/              # Admin/User Panel components
+│       │       ├── AllUser.jsx
+│       │       ├── Monthly.jsx
+│       │       ├── MyShift.jsx
+│       │       ├── ProfileSetting.jsx
+│       │       ├── ShiftDetails.jsx
+│       │       └── ShiftOperation.jsx
+│       ├── context/                # Global context using React Context API
+│       │   └── AppContext.jsx
+│       ├── pages/                  # Application pages/routes
+│       │   ├── Dashboard.jsx
+│       │   ├── EmailVerify.jsx
+│       │   ├── Home.jsx
+│       │   ├── Login.jsx
+│       │   └── ResetPassword.jsx
+│       ├── Header.jsx              # Top navigation bar
+│       ├── Navbar.jsx              # Side navigation menu
+│       ├── Sidebar.jsx             # Sidebar for dashboard
+│       ├── App.jsx                 # Main React component
+│       ├── main.jsx                # App entry point
+│       ├── index.css               # Global styles (Tailwind CSS)
+├── .env                            # Environment variables for frontend
+├── tailwind.config.js              # Tailwind CSS configuration
+├── vite.config.js                  # Vite build configuration
+├── package.json                    # Frontend dependencies
+└── README.md
+
+server/                             # Backend (Node.js + Express + MongoDB)
+├── config/                         # Configuration files
+│   ├── mongodb.js                  # MongoDB connection setup
+│   └── nodemailer.js               # Email service setup
+├── controllers/                    # Business logic for routes
+│   ├── authController.js
+│   ├── locationController.js
+│   ├── shiftController.js
+│   └── userController.js
+├── middleware/                     # Custom middleware (e.g., authentication)
+│   └── userAuth.js
+├── models/                         # Mongoose models
+│   ├── locationLog.js
+│   ├── shiftModel.js
+│   └── userModel.js
+├── routes/                         # API routes
+│   ├── authRoutes.js
+│   ├── locationRoutes.js
+│   ├── shiftRoutes.js
+│   └── userRoutes.js
+├── .env                            # Backend environment variables
+├── server.js                       # Entry point of the server
+├── package.json                    # Backend dependencies
+└── README.md
+
 
